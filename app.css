@@ -1,0 +1,197 @@
+*{
+margin:-8px ;
+padding: 2px;
+}
+
+#tooglePrivate{
+    border:none;
+    background-color: #6a4c93 !important;
+    color:#ffffff !important;
+    margin-left:20px;
+    width: 200px;
+    height: 40px;
+}
+#toogleInfo{
+    border:none;
+    background-color: #369860 !important;
+    color:#ffffff !important;
+    margin-left:20px;
+    width: 200px;
+    height: 40px;
+}
+
+#backend,#frontend{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    margin: 15px;
+    border:1px solid mediumseagreen;
+    border-radius:2em;
+    color: mediumseagreen;
+}
+#courses{
+    display:none;
+}
+/* ELEMENT SELECTORS --> START */
+body{
+    background-color: #000000;
+    margin:0;
+    font-family:  Tahoma,Geneva,sans-serif,; 
+}
+section{
+    width:100%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+div{
+    margin:5px;
+    padding:5px;
+}
+h1 
+{   
+    margin: 15px;
+    font-size: 1.5em;
+    color:#9cfd00;
+    text-decoration: underline;
+}
+#info h1{
+    margin-bottom:10px;
+    font-size: 1.5em;
+    color:black;
+    text-decoration: underline;
+}
+button{
+    font-size: 1em;
+    font-weight: 500;
+    width:100%;
+    margin:0 auto;
+    padding: 10px;
+    letter-spacing: 0px;
+    line-height: 1;
+    text-align: center;
+    border-radius:2em;
+}
+
+/* ELEMENT SELECTORS --> END */
+
+/* CLASS SELECTORS START */
+
+/* CLASS SELECTORS END */
+
+/* ID SELECTORS --> START */
+
+#ali{
+    /* padding:0; */
+    /* margin:-6px; */
+    background-color: #6a4c93;
+    border: 3px solid #ffffff;
+}
+#info{
+    /* padding:0; */
+    /* margin:0; */
+    background-color: #369860;
+    border: 3px solid #ffffff;
+}
+
+
+#jobs{
+    display:none;
+}
+
+#ali button{
+    background-color: #ffffff;
+    border:2px solid #6a4c93;
+    color:#6a4c93;
+}
+#info button{
+    color:#369860;
+    border:2px solid #369860; 
+}
+#webdev, #google, #check_this {
+    width:30%;
+}
+
+#books, #movies{
+    width:50%;
+}
+
+
+@media only screen and (max-width: 500px) {
+    #interesting, #health, #programming,  #career {
+        width:50%;
+    }
+    h1{
+        font-size: 1em;
+    }
+  }
+@media only screen and (max-width: 800px) {
+    #interesting, #health, #programming,  #career {
+        width:30%;
+    }
+    h1{
+        font-size: 0.8em;
+    }
+  }
+/* ID SELECTORS --> END */
+
+/* PSEUDO CLASSES -BUTTON HOVER- START */
+button:hover{
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+    /* font-size: 1.15em; */
+    cursor: pointer;
+    /* border:none; */
+}
+
+#ali button:hover{
+    background-color: #6a4c93;
+    color:#ffffff;
+    border: 1px solid white;
+
+} 
+#info button:hover{
+    color:#ffffff;
+    background-color: #369860;
+}
+/* PSEUDO CLASSES -BUTTON HOVER- END */
+
+/* PSEUDO CLASSES - HOVER- START */
+
+#rss h1:hover{
+    color:#f9f9f9;
+}
+#webdev h1:hover{
+    color:#ffffff;
+}
+#google h1:hover{
+    color:#3e0796;
+}
+#myauto h1:hover{
+    color:#f7d647;
+}
+#cars h1:hover{
+    color: brown;
+}
+#check_this h1:hover{
+    color: hotpink;
+}
+#books h1:hover{
+    color: white;
+}
+#movies h1:hover{
+    color: white;
+}
+h1:hover{
+    /* font-size: 1.5em; */
+    /* text-decoration-line: overline; */
+    letter-spacing: 1.2px;
+}
+/* H1 hover CSS Styles ENDS HERE */
+
+
